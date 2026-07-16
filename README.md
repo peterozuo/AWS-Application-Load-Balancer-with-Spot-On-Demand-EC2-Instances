@@ -34,7 +34,6 @@ Accessing the Application Load Balancer DNS and refreshing the browser routes tr
       └──────────────┬──────────────┘
                      ▼
               Target Group
-```
 
 
 ---
