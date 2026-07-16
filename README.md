@@ -132,7 +132,7 @@ The Application Load Balancer routes the request to an On-Demand EC2 instance.
 
 ### 8. Load Balancer DNS (Spot Instance Response)
 
-![Load Balancer DNS - Spot](load-balancer-dns-spot-instance.png)
+![Load Balancer DNS-Spot](load-balancer-dns-spot-instance.png)
 
 Refreshing the same Load Balancer DNS routes the request to a Spot EC2 instance, demonstrating load balancing across healthy targets.
 
