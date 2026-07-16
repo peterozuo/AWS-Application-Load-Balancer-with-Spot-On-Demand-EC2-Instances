@@ -76,7 +76,7 @@ Shows the Spot Instance request using a Launch Template.
 
 ### 2. Running EC2 Instances
 
-![Instances](spot-and-ondemand-instances.png)
+![Instances](ec2-spot-and-on-demand-instances.png)
 
 Shows multiple Spot and On-Demand EC2 instances running.
 
@@ -84,7 +84,7 @@ Shows multiple Spot and On-Demand EC2 instances running.
 
 ### 3. Spot Instance Web Page
 
-![Spot Instance](spot-instance-display.png)
+![Spot Instance](spot-instance-webpage.png)
 
 Displays:
 
@@ -96,7 +96,7 @@ Displays:
 
 ### 4. On-Demand Instance Web Page
 
-![On-Demand Instance](ondemand-instance-display.png)
+![On-Demand Instance](on-demand-instance-webpage.png)
 
 Displays:
 
@@ -108,7 +108,7 @@ Displays:
 
 ### 5. Application Load Balancer
 
-![Application Load Balancer](spot-and-ondemand-load-balancer.png)
+![Application Load Balancer](application-load-balancer.png)
 
 Application Load Balancer configured to distribute incoming HTTP requests.
 
@@ -116,7 +116,7 @@ Application Load Balancer configured to distribute incoming HTTP requests.
 
 ### 6. Target Group
 
-![Target Group](spot-target-group.png)
+![Target Group](target-group-healthy-instances.png)
 
 All registered EC2 instances are healthy and available to receive traffic.
 
@@ -124,7 +124,7 @@ All registered EC2 instances are healthy and available to receive traffic.
 
 ### 7. Load Balancer DNS (On-Demand Response)
 
-![Load Balancer DNS - On-Demand](ondemand-load-balancer-DNS.png)
+![Load Balancer DNS - On-Demand](load-balancer-dns-on-demand.png)
 
 The Application Load Balancer routes the request to an On-Demand EC2 instance.
 
@@ -132,7 +132,7 @@ The Application Load Balancer routes the request to an On-Demand EC2 instance.
 
 ### 8. Load Balancer DNS (Spot Instance Response)
 
-![Load Balancer DNS - Spot](spot-and-ondemand-load-balancer-DNS.png)
+![Load Balancer DNS - Spot](load-balancer-dns-spot-instance.png)
 
 Refreshing the same Load Balancer DNS routes the request to a Spot EC2 instance, demonstrating load balancing across healthy targets.
 
