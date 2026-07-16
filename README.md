@@ -122,7 +122,7 @@ All registered EC2 instances are healthy and available to receive traffic.
 
 ---
 
-### 7. Load Balancer DNS (On-Demand Response)
+### 7. Load Balancer DNS (First Refresh)
 
 ![Load Balancer DNS - On-Demand](load-balancer-dns-on-demand.png)
 
@@ -130,7 +130,7 @@ The Application Load Balancer routes the request to an On-Demand EC2 instance.
 
 ---
 
-### 8. Load Balancer DNS (Spot Instance Response)
+### 8. Load Balancer DNS (Second Refresh)
 
 ![Load Balancer DNS - Spot](load-balancer-dns-spot-instances.png)
 
