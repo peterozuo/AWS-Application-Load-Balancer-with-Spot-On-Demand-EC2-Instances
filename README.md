@@ -21,19 +21,22 @@ Accessing the Application Load Balancer DNS and refreshing the browser routes tr
 ## Architecture
 
 
-                 Internet
-                     │
-                     ▼
-       Application Load Balancer
-                     │
-      ┌──────────────┴──────────────┐
-      │                             │
-      ▼                             ▼
- Spot EC2 Instance          On-Demand EC2 Instance
-      │                             │
-      └──────────────┬──────────────┘
-                     ▼
-              Target Group
+              ```text
+       Internet
+          |
+          V
+    Application Load Balancer
+          |
+      ┌───┴───┐
+      V       V
+Spot EC2 Instance       On-Demand EC2 Instance
+      | |
+      | |
+      └──┴────────────────────┘
+                  |
+                  ▼
+            Target Group
+```
 
 
 ---
